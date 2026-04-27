@@ -26,9 +26,9 @@ url: "https://alivande97.github.io"
 # Author Info
 author:
   name: "Alicia Vanderpool"
+  avatar: "assets/images/prof_pic.jpg"
   bio: "Marketing professional and visual artist."
-  location: "Mason, Michigan"
-  email: "alicia@email.com"
+  location: "Mason, MI"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
@@ -42,9 +42,24 @@ theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "default"
 # options: air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
 
+# Site Footer
+footer:
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/wolverineconcepts"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/alivande97"
+  since: "2026"
+
+include:
+  - _pages
 exclude:
   - README.md
   - vendor/
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 # The following are excluded automatically
 # exclude:
@@ -58,3 +73,27 @@ exclude:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Defaults
+defaults:
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-sitemap
+  - jekyll-gist
+  - jemoji
+  - jekyll-include-cache
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-sitemap
+  - jekyll-gist
+  - jemoji
+  - jekyll-include-cache

@@ -1,11 +1,13 @@
 ---
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
+permalink: /
+title: About Me
 layout: single
 author_profile: false
 ---
 
-![Alicia Vanderpool](assets/images/prof_pic.jpg)
+![Alicia Vanderpool](../assets/images/prof_pic.jpg)
 
 I build brands by building relationships.
 

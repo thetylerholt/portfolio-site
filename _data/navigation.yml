@@ -4,10 +4,17 @@ main:
   - title: "Resume"
     url: /resume/
   - title: "Graphics"
-    url: /projects/graphics/
+    url: /graphics/
   - title: "Photography"
-    url: /projects/photography/
+    url: /photography/
   - title: "Video"
-    url: /projects/video/
+    url: /video/
   - title: "Campaigns"
     url: /campaigns/
+    children:
+    - title: "LazerCON!"
+      url: /campaigns/lazercon/
+    - title: "AP Lazer Advanced Training Event"
+      url: /campaigns/advanced-training/
+    - title: "AP Lazer's Emotional Marketplace"
+      url: /campaigns/emotional-marketplace/

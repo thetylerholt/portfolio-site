@@ -1,7 +1,7 @@
 A simple portfolio site built with Jekyll and the Minimal Mistakes theme.
 Documentation:
 - [Jekyll](https://jekyllrb.com/)
-- [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/)
+- [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) | [GitHub](https://github.com/mmistakes/minimal-mistakes)
 
 ## Dev Setup (ARCH)
 
@@ -44,7 +44,7 @@ source ~/.venv/rendercv/bin/activate
 pip install "rendercv[full]"
 
 # from project root
-rendercv render assets/resume/Alicia_Vanderpool_CV.yaml -o assets/resume
+rendercv render assets/resume/Alicia_Vanderpool_CV.yaml
 ```
 
-This tool generates both a pdf and html version of the resume in the `rendercv_output` directory.
+**Note**: You must copy `Alicia_Vanderpool_CV.md` from `assets/resume/rendercv_output` to `_pages` or changes will not be represented on the live site.
