@@ -1,0 +1,13 @@
+main:
+  - title: "About Me"
+    url: /
+  - title: "Resume"
+    url: /resume/
+  - title: "Graphics"
+    url: /projects/graphics/
+  - title: "Photography"
+    url: /projects/photography/
+  - title: "Video"
+    url: /projects/video/
+  - title: "Campaigns"
+    url: /campaigns/

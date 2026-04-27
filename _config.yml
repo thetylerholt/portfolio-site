@@ -1,0 +1,60 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+
+
+
+# Site settings
+locale: "en-US"
+title: Alicia Vanderpool
+subtitle: "Marketing & Design"
+name: "Alicia Vanderpool" 
+description: >-
+  Portfolio Site
+url: "https://alivande97.github.io"
+
+# Author Info
+author:
+  name: "Alicia Vanderpool"
+  bio: "Marketing professional and visual artist."
+  location: "Mason, Michigan"
+  email: "alicia@email.com"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/wolverineconcepts"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/alivande97"
+
+# Build settings
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "default"
+# options: air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
+
+exclude:
+  - README.md
+  - vendor/
+
+# The following are excluded automatically
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
